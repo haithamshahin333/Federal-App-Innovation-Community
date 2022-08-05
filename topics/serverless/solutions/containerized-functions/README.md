@@ -19,7 +19,7 @@ The following will go through an example of containerizing an Azure Function and
 Pre-Reqs:
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 - Local Container Engine (Docker, Podman, etc.)
-- Python 3 and Virtual Env
+- Python 3 and Virtual Env (Python 3.6 - 3.9 specifically, my example below using python 3.8)
 - [Azure Function Core Tools CLI](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)
 
 1. First, we will build a functions project and get the function running locally:
